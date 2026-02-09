@@ -1,0 +1,44 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: -moz-linear-gradient(to right,#f2f2f2);
+    background-color: burlywood;
+    
+}
+.chat-container{
+    margin: 45px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+}
+h2{
+    text-align: center;
+}
+#messages{
+    height: 300px;
+    border: 1px solid;
+    overflow-y: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.message{
+    margin: 6px;
+}
+.messages span{
+    font-weight: bold;
+}
+#chat-form{
+    display: flex;
+    gap: 6px;
+}
+#chat-form input{
+    flex: 1;
+    padding: 7px;
+}
+button{
+    background: rgb(0, 238, 255);
+    color: antiquewhite;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px;
+}
